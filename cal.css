@@ -1,0 +1,38 @@
+.calc{
+    width:250px;
+    height: 390px;
+    background-color: bisque;
+    margin-left: 50px;
+    margin-top: 35px
+}
+
+#screen{
+    width:80%;
+    height:50px;
+    background-color: white;
+    margin-left: 10%;
+    margin-top: 10px;
+    font-size: 20px
+}
+.bt{
+   height : 30px;
+    width:45px;
+    background-color: brown;
+    margin-left: 11.5px;
+    margin-top: 30px
+}
+.button{
+    margin-top: 100px;
+    background-color: aqua
+}
+
+.bq{
+   height : 30px;
+    width:45px;
+    background-color: darkred;
+    margin-left: 190px;
+    margin-top: 30px          
+                        
+
+
+    

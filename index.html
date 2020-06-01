@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="styles/style.css"/>
+        <title>Hello Calaculator</title>
+        <link href="cal.css"type="text/css"rel="stylesheet">
+        <script src="cal.js"></script>
+    </head>
+    <body>
+        <div class="main">
+            <div class="calc">
+                <div class="output">
+                    
+                   <input type="text" id="screen">     
+                    
+                    
+                </div>
+                         <div class="row">
+                        <button onclick="clearDisplay()" class="bq">AC</button>
+                             </div>
+                <div class="buttons">
+                    <div class="row">
+                      <button onclick="buttonclick(7)" class="bt">7</button>
+                       <button onclick="buttonclick(8)" class="bt">8</button>
+                       <button onclick="buttonclick(9)" class="bt">9</button>
+                       <button onclick="buttonclick('/')" class="bt">/</button>
+                    </div>
+                    <div class="row">
+                        <button onclick="buttonclick(4)" class="bt">4</button>
+                       <button onclick="buttonclick(5)" class="bt">5</button>
+                       <button onclick="buttonclick(6)" class="bt">6</button>
+                       <button onclick="buttonclick('*')" class="bt">x</button
+                    </div>
+                    <div class="row">
+                        <button onclick="buttonclick(1)" class="bt">1</button>
+                       <button onclick="buttonclick(2)" class="bt">2</button>
+                       <button onclick="buttonclick(3)" class="bt">3</button>
+                       <button onclick="buttonclick('-')" class="bt">-</button
+                    </div>
+                    <div class="row">
+                        <button onclick="buttonclick('.')" class="bt">.</button>
+                       <button onclick="buttonclick(0)" class="bt">0</button>
+                       <button onclick="buttonclick('+')" class="bt">+</button>
+                       <button onclick="ans()" class="bt">=</button
+                    </div>
+                    
+                </div>
+                  
+            </div>
+            
+        </div>
+        
+    </body>
+</html>
